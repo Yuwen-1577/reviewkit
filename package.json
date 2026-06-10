@@ -10,7 +10,8 @@
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "test": "vitest",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "code-review",
