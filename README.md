@@ -1,5 +1,7 @@
 # reviewkit
 
+[中文](./README_CN.md)
+
 AI-powered code review from the command line. Analyzes git diffs for security issues, code smells, and risk — no API key required.
 
 ```
