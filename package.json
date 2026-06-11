@@ -1,5 +1,5 @@
 {
-  "name": "reviewkit",
+  "name": "@yuwen_1577/reviewkit",
   "version": "0.1.0",
   "description": "AI-powered code review CLI tool for git diffs",
   "main": "dist/index.js",

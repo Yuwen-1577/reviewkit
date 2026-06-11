@@ -5,7 +5,7 @@
 AI-powered code review from the command line. Analyzes git diffs for security issues, code smells, and risk — no API key required.
 
 ```
-npx reviewkit
+npx @yuwen_1577/reviewkit
 ```
 
 ## What it detects
@@ -44,13 +44,13 @@ reviewkit changelog
 ## Install
 
 ```bash
-npm install -g reviewkit
+npm install -g @yuwen_1577/reviewkit
 ```
 
 Or run without installing:
 
 ```bash
-npx reviewkit
+npx @yuwen_1577/reviewkit
 ```
 
 ## CI/CD Integration
@@ -58,7 +58,7 @@ npx reviewkit
 ```yaml
 # GitHub Actions example
 - name: Code Review
-  run: npx reviewkit review --commit --json
+  run: npx @yuwen_1577/reviewkit review --commit --json
 ```
 
 The CLI exits with code 1 when critical issues are found, so it works as a CI gate out of the box.

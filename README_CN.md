@@ -3,7 +3,7 @@
 命令行代码审查工具。自动分析 git diff，检测安全漏洞、代码异味和风险等级。不需要 API key，纯本地运行。
 
 ```
-npx reviewkit
+npx @yuwen_1577/reviewkit
 ```
 
 ## 检测能力
@@ -42,13 +42,13 @@ reviewkit changelog
 ## 安装
 
 ```bash
-npm install -g reviewkit
+npm install -g @yuwen_1577/reviewkit
 ```
 
 或者不安装直接跑：
 
 ```bash
-npx reviewkit
+npx @yuwen_1577/reviewkit
 ```
 
 ## CI/CD 集成
@@ -56,7 +56,7 @@ npx reviewkit
 ```yaml
 # GitHub Actions 示例
 - name: Code Review
-  run: npx reviewkit review --commit --json
+  run: npx @yuwen_1577/reviewkit review --commit --json
 ```
 
 发现严重问题时 CLI 会以退出码 1 退出，可以直接当 CI 门禁用。
