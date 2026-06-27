@@ -13,6 +13,10 @@
     "lint": "eslint src/",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuwen-1577/reviewkit.git"
+  },
   "keywords": [
     "code-review",
     "git",
